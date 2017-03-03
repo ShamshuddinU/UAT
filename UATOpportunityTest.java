@@ -24,7 +24,7 @@ public class UATOpportunityTest {
 
   @Test
   public void testUATOpportunity() throws Exception {
-    driver.get(baseUrl + "/");
+    driver.get(baseUrl + "/")
     driver.findElement(By.xpath("//input[@id='username']")).clear();
     driver.findElement(By.xpath("//input[@id='username']")).sendKeys("shamshuddink9@gmail.com");
     driver.findElement(By.xpath("//input[@id='password']")).clear();
