@@ -24,7 +24,7 @@ public class LoginTemplateTest {
 
   @Test
   public void testLoginTemplate() throws Exception {
-    driver.get(baseUrl + "/");
+    driver.get(baseUrl + "/")
     driver.findElement(By.xpath("//div[@id='username_container']/input")).clear();
     driver.findElement(By.xpath("//div[@id='username_container']/input")).sendKeys("shamshuddink9@gmail.com");
     driver.findElement(By.xpath("//form[@id='login_form']/input")).clear();
